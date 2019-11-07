@@ -36,6 +36,9 @@
             this.txtresultado = new System.Windows.Forms.TextBox();
             this.txtnum2 = new System.Windows.Forms.TextBox();
             this.btmsuamar = new System.Windows.Forms.Button();
+            this.btnresta = new System.Windows.Forms.Button();
+            this.btnmultiplicar = new System.Windows.Forms.Button();
+            this.btndividir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btncerrar
@@ -106,11 +109,44 @@
             this.btmsuamar.UseVisualStyleBackColor = true;
             this.btmsuamar.Click += new System.EventHandler(this.btmsuamar_Click);
             // 
+            // btnresta
+            // 
+            this.btnresta.Location = new System.Drawing.Point(160, 300);
+            this.btnresta.Name = "btnresta";
+            this.btnresta.Size = new System.Drawing.Size(75, 23);
+            this.btnresta.TabIndex = 8;
+            this.btnresta.Text = "Resta";
+            this.btnresta.UseVisualStyleBackColor = true;
+            this.btnresta.Click += new System.EventHandler(this.btnresta_Click);
+            // 
+            // btnmultiplicar
+            // 
+            this.btnmultiplicar.Location = new System.Drawing.Point(103, 271);
+            this.btnmultiplicar.Name = "btnmultiplicar";
+            this.btnmultiplicar.Size = new System.Drawing.Size(75, 23);
+            this.btnmultiplicar.TabIndex = 9;
+            this.btnmultiplicar.Text = "MULTIPLICAR";
+            this.btnmultiplicar.UseVisualStyleBackColor = true;
+            this.btnmultiplicar.Click += new System.EventHandler(this.btnmultiplicar_Click);
+            // 
+            // btndividir
+            // 
+            this.btndividir.Location = new System.Drawing.Point(210, 271);
+            this.btndividir.Name = "btndividir";
+            this.btndividir.Size = new System.Drawing.Size(75, 23);
+            this.btndividir.TabIndex = 10;
+            this.btndividir.Text = "DIVIDIR";
+            this.btndividir.UseVisualStyleBackColor = true;
+            this.btndividir.Click += new System.EventHandler(this.btndividir_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(369, 361);
+            this.Controls.Add(this.btndividir);
+            this.Controls.Add(this.btnmultiplicar);
+            this.Controls.Add(this.btnresta);
             this.Controls.Add(this.btmsuamar);
             this.Controls.Add(this.txtnum2);
             this.Controls.Add(this.txtresultado);
@@ -137,6 +173,9 @@
         private System.Windows.Forms.TextBox txtresultado;
         private System.Windows.Forms.TextBox txtnum2;
         private System.Windows.Forms.Button btmsuamar;
+        private System.Windows.Forms.Button btnresta;
+        private System.Windows.Forms.Button btnmultiplicar;
+        private System.Windows.Forms.Button btndividir;
     }
 }
 
