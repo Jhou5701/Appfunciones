@@ -52,6 +52,12 @@
     <Compile Include="cilindro.Designer.cs">
       <DependentUpon>cilindro.cs</DependentUpon>
     </Compile>
+    <Compile Include="cuadrado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cuadrado.Designer.cs">
+      <DependentUpon>cuadrado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="cilindro.resx">
       <DependentUpon>cilindro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cuadrado.resx">
+      <DependentUpon>cuadrado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
