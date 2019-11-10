@@ -125,6 +125,11 @@ namespace Appfunciones
             this.txtX2.Text = "";
             this.txtA.Focus();
         }
-    }
+
+		private void txtA_TextChanged(object sender, EventArgs e)
+		{
+
+		}
+	}
     
 }
