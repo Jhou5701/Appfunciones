@@ -23,8 +23,8 @@ namespace Appfunciones
         }
         private void btncalcular_Click(object sender, EventArgs e)
         {
-            int a=243,b;
-            b = a / 2;
+            double a=243,b;
+            b = Math.Sqrt(a);
             this.txt2.Text = b.ToString();
         }
 

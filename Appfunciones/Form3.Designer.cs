@@ -67,6 +67,7 @@
             // 
             // txt2
             // 
+            this.txt2.Enabled = false;
             this.txt2.Location = new System.Drawing.Point(186, 92);
             this.txt2.Name = "txt2";
             this.txt2.Size = new System.Drawing.Size(100, 20);
