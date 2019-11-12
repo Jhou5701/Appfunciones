@@ -16,7 +16,7 @@ namespace Appfunciones
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new cuadrado());
+            Application.Run(new Rectangulo());
         }
     }
 }
