@@ -16,7 +16,7 @@ namespace Appfunciones
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Rectangulo());
+            Application.Run(new Raizc());
         }
     }
 }
