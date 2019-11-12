@@ -90,6 +90,12 @@
     <Compile Include="Rectangulo.Designer.cs">
       <DependentUpon>Rectangulo.cs</DependentUpon>
     </Compile>
+    <Compile Include="triangulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="triangulo.Designer.cs">
+      <DependentUpon>triangulo.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="cilindro.resx">
       <DependentUpon>cilindro.cs</DependentUpon>
     </EmbeddedResource>
@@ -119,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Rectangulo.resx">
       <DependentUpon>Rectangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="triangulo.resx">
+      <DependentUpon>triangulo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
