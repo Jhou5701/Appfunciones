@@ -52,11 +52,11 @@
     <Compile Include="Conversiones.Designer.cs">
       <DependentUpon>Conversiones.cs</DependentUpon>
     </Compile>
-    <Compile Include="Factorial.cs">
+    <Compile Include="factorial1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Factorial.Designer.cs">
-      <DependentUpon>Factorial.cs</DependentUpon>
+    <Compile Include="factorial1.Designer.cs">
+      <DependentUpon>factorial1.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -69,8 +69,8 @@
     <EmbeddedResource Include="Conversiones.resx">
       <DependentUpon>Conversiones.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Factorial.resx">
-      <DependentUpon>Factorial.cs</DependentUpon>
+    <EmbeddedResource Include="factorial1.resx">
+      <DependentUpon>factorial1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

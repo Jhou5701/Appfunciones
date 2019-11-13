@@ -90,6 +90,7 @@
             this.txtbase.Name = "txtbase";
             this.txtbase.Size = new System.Drawing.Size(100, 20);
             this.txtbase.TabIndex = 44;
+            this.txtbase.TextChanged += new System.EventHandler(this.txtbase_TextChanged);
             // 
             // btnsalir
             // 

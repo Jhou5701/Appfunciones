@@ -16,7 +16,7 @@ namespace AppEjercicioTodos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Conversiones());
+            Application.Run(new factorial1());
         }
     }
 }

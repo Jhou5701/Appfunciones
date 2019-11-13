@@ -1,6 +1,6 @@
 ﻿namespace AppEjercicioTodos
 {
-    partial class Factorial
+    partial class factorial1
     {
         /// <summary>
         /// Required designer variable.
@@ -84,6 +84,7 @@
             // 
             // txtresultado
             // 
+            this.txtresultado.Enabled = false;
             this.txtresultado.Location = new System.Drawing.Point(218, 85);
             this.txtresultado.Name = "txtresultado";
             this.txtresultado.Size = new System.Drawing.Size(100, 20);
@@ -99,7 +100,7 @@
             this.btncalcular.UseVisualStyleBackColor = true;
             this.btncalcular.Click += new System.EventHandler(this.btncalcular_Click);
             // 
-            // Factorial
+            // factorial1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -111,8 +112,9 @@
             this.Controls.Add(this.btnnuevo);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Factorial";
+            this.Name = "factorial1";
             this.Text = "Factorial";
+            this.Load += new System.EventHandler(this.factorial1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

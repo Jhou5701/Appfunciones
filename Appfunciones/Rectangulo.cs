@@ -56,5 +56,10 @@ namespace Appfunciones
             this.txtperimetro.Text = "";
             this.txtsuperficie.Text = "";
         }
+
+        private void txtbase_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -33,7 +33,7 @@ namespace Appfunciones
         }
         private void btncalcular_Click(object sender, EventArgs e)
         {
-            double a, b, c;
+            double a, b;
             if(this.txtradio.Text.Length == 0)
             {
                 MessageBox.Show("Porfavor ingresa el valor de Radio...");
